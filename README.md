@@ -4,7 +4,8 @@ working with machine learning, let's **start learning from beginers**.
 - [ML-Journey](#ml-journey)
   - [Week 1](#week-1)
     - [Day 1 ("Data Type")](#day-1-data-type)
-    - [Day 2 ("Data Type 2")](#day-2-data-type-2)
+    - [Day 2, 3 ("Data Type 2")](#day-2-3-data-type-2)
+    - [Day 3 ("Copy Right")](#day-3-copy-right)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -33,7 +34,7 @@ working with machine learning, let's **start learning from beginers**.
 
 ---
 
-### Day 2 ("Data Type 2")
+### Day 2, 3 ("Data Type 2")
 
 * ***Text***
   * __ASCII__
@@ -66,9 +67,14 @@ working with machine learning, let's **start learning from beginers**.
 
 * ***Compression Data***
   * __Lossless__ --> reduce size file with out losing any information ( work with ``text document, simple image, binary data`` )
-    * working by replace duplicated data
-      * eg. "to be or not to be, that is the question" -->> "⊜ ⬗ or not ⊜ ⬗, ⟡at is ⟡e question" which replace ``"to" -->> ⊜``, ``"be" -->> ⬗``, ``"th" -->> ⟡``
-  * __Lossy__ --> reduce size file by discard less important information ( work with ``photos, audio`` )
+    * _Text document_ **eg.** "to be or not to be, that is the question" -->> "⊜ ⬗ or not ⊜ ⬗, ⟡at is ⟡e question" which replace ``"to" -->> ⊜``, ``"be" -->> ⬗``, ``"th" -->> ⟡``
+    * _Simple image_ using **run-length encoding (RLE)** to reduce same pattern of color pixel **eg.** ``--====---====---`` - binary -> ``0011110001111000`` - RLE -> ``2, 4, 3, 4, 3``
+      * > [!TIP] RLE can't be use in image which have different colors
+    * _Binary data_ using **Huffman coding**
+  * __Lossy__ --> reduce size file by discard less important information ( work with ``photos, audio, videos`` )
+    * _Images_ kept only data of brightness and color wich reduce value of color
+      * <div><img src="assets/images/lossy-brightness.png"  style="margin-right:10px;height:100" alt="brightness"\><img src="assets/images/lossy-chroma.png" style="margin-right:10px;height:100" alt="chroma"\><img src="assets/images/lossy-result.jpg" height=100 alt="result"\></div>
+    *  _Audio_ analyze and discard data wich human can't hear that data
 
 > [!NOTE]
 > Learned Vocabulary :book:
@@ -76,7 +82,11 @@ working with machine learning, let's **start learning from beginers**.
 > - telepriters => เครื่องพิมพ์ดีด
 > - alternative => ทางเลือก
 > - precise => แม่นยำ
+> - irreversible => กลับไม่ได้
 
 [09/04/2024]: #
+[10/04/2024]: #
 
 ---
+
+### Day 3 ("Copy Right")
