@@ -5,7 +5,7 @@ working with machine learning, let's **start learning from beginers**.
   - [Week 1](#week-1)
     - [Day 1 ("Data Type")](#day-1-data-type)
     - [Day 2, 3 ("Data Type 2")](#day-2-3-data-type-2)
-    - [Day 3 ("Copy Right")](#day-3-copy-right)
+    - [Day 3 ("Internet")](#day-3-internet)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -75,6 +75,15 @@ working with machine learning, let's **start learning from beginers**.
     * _Images_ kept only data of brightness and color wich reduce value of color
       * <div><img src="assets/images/lossy-brightness.png"  style="margin-right:10px;height:100" alt="brightness"\><img src="assets/images/lossy-chroma.png" style="margin-right:10px;height:100" alt="chroma"\><img src="assets/images/lossy-result.jpg" height=100 alt="result"\></div>
     *  _Audio_ analyze and discard data wich human can't hear that data
+*  ***Ethic***
+   * Copyright
+   * Fair use
+   * Creative Commons
+   * Open source
+   * Public domain
+   * Online publish
+     * [Google Scholar](https://scholar.google.com/)
+   * Open databases
 
 > [!NOTE]
 > Learned Vocabulary :book:
@@ -83,10 +92,49 @@ working with machine learning, let's **start learning from beginers**.
 > - alternative => ทางเลือก
 > - precise => แม่นยำ
 > - irreversible => กลับไม่ได้
+> - intellectual => ทางปัญญา
+> - doctrine => หลักคำสอน
 
 [09/04/2024]: #
 [10/04/2024]: #
 
 ---
 
-### Day 3 ("Copy Right")
+### Day 3 ("Internet")
+
+* ***Words***
+  * __Internet__ --> network able devices communicate with other.
+  * __Protocal__ --> rule how can device communicated.
+  * __Wires & Wireless__ --> connection between devices/protocal for converted eletromagnetic to binary data.
+  * __IP__ --> unquely identify address be destination to send data to.
+  * __TCP/UDP__ --> protocal that can transfer data and detect error along the way.
+  * __TLS__ --> secure protocal sending encrypted data.
+  * __HTTP & DNS__ --> protocal for World Wide Web.
+  * __Computer Network__ --> grop of computering devices that interconnected with other
+  * __Computering Device__ --> any device that can run a program
+  * __Network Topology__ --> way computering device connected ![topology](/assets/images/network-topology.svg)
+* ***Type of network***
+  * __Local area Network "LAN"__ --> cover limited area eg. house, school
+  * __Wild Area Network "WAN"__ --> cover large area extended many, many LANs
+  * __Data Center Network "DCN"__ --> used in data center where data must exchanged with very little delay
+* ***Physical connection***
+  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/copper-cable.svg)</div>
+  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/fiber_optic-cable.svg)</div>
+  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/wireless.svg)</div>
+* ***Transferation***
+  * binary data transfer by <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/binary-transfer.svg)</div>
+  * __Bit rate__ --> number of bits data send for a second
+  * __Bandwidth__ --> maximum bit rate of system
+  * __Latency__ --> period of time sending data from computering device to other ( have milliseconds as unit ) also know as ping rate
+  * __Internet speed__ --> combination of bandwidth and latency
+
+> [!NOTE]
+> Learned Vocabulary :book:
+> - acronym => ตัวย่อ
+> - knit => ถัก/ผสาน
+> - opt => เลือก
+> - congestion => ความแออัด
+
+[10/04/2024]: #
+
+---
