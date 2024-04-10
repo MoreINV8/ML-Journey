@@ -118,11 +118,11 @@ working with machine learning, let's **start learning from beginers**.
   * __Wild Area Network "WAN"__ --> cover large area extended many, many LANs
   * __Data Center Network "DCN"__ --> used in data center where data must exchanged with very little delay
 * ***Physical connection***
-  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data <div class="box">![copper cable](/assets/images/copper-cable.svg)</div>
-  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) <div class="box">![copper cable](/assets/images/fiber_optic-cable.svg)</div>
-  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air <div class="box">![copper cable](/assets/images/wireless.svg)</div>
+  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data ![copper cable](/assets/images/copper-cable.svg)
+  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) ![copper cable](/assets/images/fiber_optic-cable.svg)
+  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air ![copper cable](/assets/images/wireless.svg)
 * ***Transferation***
-  * binary data transfer by <div class="box">![copper cable](/assets/images/binary-transfer.svg)</div>
+  * binary data transfer by ![copper cable](/assets/images/binary-transfer.svg)
   * __Bit rate__ --> number of bits data send for a second
   * __Bandwidth__ --> maximum bit rate of system
   * __Latency__ --> period of time sending data from computering device to other ( have milliseconds as unit ) also know as ping rate
@@ -138,9 +138,3 @@ working with machine learning, let's **start learning from beginers**.
 [10/04/2024]: #
 
 ---
-
-<style>
-  .box {
-    background-color:#ffffff;padding:10px;border-radius:8px;
-  }
-</style>
