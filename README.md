@@ -73,7 +73,7 @@ working with machine learning, let's **start learning from beginers**.
     * _Binary data_ using **Huffman coding**
   * __Lossy__ --> reduce size file by discard less important information ( work with ``photos, audio, videos`` )
     * _Images_ kept only data of brightness and color wich reduce value of color
-      * <div><img src="assets/images/lossy-brightness.png"  style="margin-right:10px;height:100" alt="brightness"\><img src="assets/images/lossy-chroma.png" style="margin-right:10px;height:100" alt="chroma"\><img src="assets/images/lossy-result.jpg" height=100 alt="result"\></div>
+      * <div><img src="assets/images/lossy-brightness.png"  style="margin-right:10px;height:100;" alt="brightness"\><img src="assets/images/lossy-chroma.png" style="margin-right:10px;height:100;" alt="chroma"\><img src="assets/images/lossy-result.jpg" height=100 alt="result"\></div>
     *  _Audio_ analyze and discard data wich human can't hear that data
 *  ***Ethic***
    * Copyright
@@ -118,11 +118,11 @@ working with machine learning, let's **start learning from beginers**.
   * __Wild Area Network "WAN"__ --> cover large area extended many, many LANs
   * __Data Center Network "DCN"__ --> used in data center where data must exchanged with very little delay
 * ***Physical connection***
-  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/copper-cable.svg)</div>
-  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/fiber_optic-cable.svg)</div>
-  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/wireless.svg)</div>
+  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data <div style="background-color:#ffffff;padding:10px;border-radius:8px;">![copper cable](/assets/images/copper-cable.svg)</div>
+  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) <div style="background-color:#ffffff;padding:10px;border-radius:8px;">![copper cable](/assets/images/fiber_optic-cable.svg)</div>
+  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air <div style="background-color:#ffffff;padding:10px;border-radius:8px;">![copper cable](/assets/images/wireless.svg)</div>
 * ***Transferation***
-  * binary data transfer by <div style="background-color:#ffffff;padding:10px;border-radius:8px">![copper cable](/assets/images/binary-transfer.svg)</div>
+  * binary data transfer by <div style="background-color:#ffffff;padding:10px;border-radius:8px;">![copper cable](/assets/images/binary-transfer.svg)</div>
   * __Bit rate__ --> number of bits data send for a second
   * __Bandwidth__ --> maximum bit rate of system
   * __Latency__ --> period of time sending data from computering device to other ( have milliseconds as unit ) also know as ping rate
