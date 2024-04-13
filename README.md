@@ -6,6 +6,7 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 1 ("Data Type")](#day-1-data-type)
     - [Day 2, 3 ("Data Type 2")](#day-2-3-data-type-2)
     - [Day 3 ("Internet")](#day-3-internet)
+    - [Day 4, 5 ("Internet 2")](#day-4-5-internet-2)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -104,15 +105,17 @@ working with machine learning, let's **start learning from beginers**.
 
 * ***Words***
   * __Internet__ --> network able devices communicate with other.
-  * __Protocal__ --> rule how can device communicated.
-  * __Wires & Wireless__ --> connection between devices/protocal for converted eletromagnetic to binary data.
+  * __Protocol__ --> rule how can device communicated.
+  * __Wires & Wireless__ --> connection between devices/protocol for converted eletromagnetic to binary data.
   * __IP__ --> unquely identify address be destination to send data to.
-  * __TCP/UDP__ --> protocal that can transfer data and detect error along the way.
-  * __TLS__ --> secure protocal sending encrypted data.
-  * __HTTP & DNS__ --> protocal for World Wide Web.
+  * __TCP/UDP__ --> protocol that can transfer data and detect error along the way.
+  * __TLS__ --> secure protocol sending encrypted data.
+  * __HTTP & DNS__ --> protocol for World Wide Web.
   * __Computer Network__ --> grop of computering devices that interconnected with other
   * __Computering Device__ --> any device that can run a program
   * __Network Topology__ --> way computering device connected ![topology](/assets/images/network-topology.svg)
+  * __Router__ --> device moved paket along
+  * __IP Header__ --> meta data of IP
 * ***Type of network***
   * __Local area Network "LAN"__ --> cover limited area eg. house, school
   * __Wild Area Network "WAN"__ --> cover large area extended many, many LANs
@@ -136,5 +139,101 @@ working with machine learning, let's **start learning from beginers**.
 > - congestion => ความแออัด
 
 [10/04/2024]: #
+
+---
+
+### Day 4, 5 ("Internet 2")
+
+* ***Internet Protocol "IP"***
+  * protocol that using in all internet connetion handle addressing and routing
+  * __IP Address__ uniquely identify internet connected device
+    * __IPv4 Address (Octets)__ have 4 digit of **octal<sub>8</sub>** stored IP address (but not enough)
+      * eg. 74.125.20.113 --> 74<sub>8</sub> . 125<sub>8</sub> . 20<sub>8</sub> . 113<sub>8</sub>
+    * __IPv6 Address__ have 4 * 8 digit of **hexadecimal<sub>16</sub>** stored IP address
+      * eg. FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF ( each F is F<sub>16</sub> )
+  * __IP Packets__ is way how to split and transfer data
+* ***Internet routing protocol***
+  * 1. __send packet to router__ --> send paket to nearest router
+  * 2. __router recive packet__ --> look up for destination ip address in ip header
+  * 3. __route packet forward__ --> the router have a **forwarding table** wich stored prefixes of ip address, once it most specific to the destination ip address router will send packet along the path
+  * 4. __route forwards message__
+* ***Redundancy*** --> available path route to the destination ip address
+* ***Fault tolerance*** --> usable when some path route borken
+* ***Problem in IP***
+  * __multiple messages__ --> destination need to identify which packet belong to which messages
+  * __out of order__ --> each packet from message follow difference path to the destination
+  * __corrupt__ --> for some reason, the receiver can't match the received with originally data
+  * __lost__ --> packet of message may lost, it may lead to can't put the message back together
+  * __duplicate__ --> packet may accidently retransmission
+  * 
+  * have **Transmission Control Protocol "TCP"** a transport protocol that use on top IP include ordering, retransmission, data integrity use for solve these problem and **User Datagram Protocol "UDP"** solve fewer problem but offer faster data trasport than TCP
+* ***User Datagram Protocol "UDP"*** --> light weight data transfer protocol, worked on top IP
+  * solve only corrupt data.
+  * sometimes known as the **Unreliable Data Protocol**
+  * use in application required speed more accuracy
+  * __Packet format__ ![UDP packet format](/assets/images/UDP-format.svg)
+    * UDP segment header contain 8 bytes
+    * __Port number__ --> use 4 bytes help distinguish difference type of network traffic
+    * __Segment length__ --> use 2 bytes to tell length of segment ( including the header )
+    * __Checksum__ --> check data corruption
+* ***Transmission Control Protocol "TCP"*** --> transport protocol ensure reliable transmission of packet, worked on top IP
+  * solve all the problem
+  * use mostly on top IP know as **TCP/IP**
+  * __Packet format__ ![TCP/IP format](/assets/images/TCP-format.svg)
+    * TCP header contain 20 - 60 bytes
+    * how to transmitting a packet using TCP
+      * 1. __Establish connection__ --> SYN = "synchronize", ACK = "acknowlege" ![establish connection](/assets/images/establish-tcp.svg) finsh all these ready to transmitting data! ( these transmitting dosen't include any data )
+      * 2. __Send packegs of Data__ ![sending data](/assets/images/send-tcp.svg) first device send data, the seconde device send back ack bit + length of data
+      * 3. __Close the connection__ --> FIN = "finish" ![clse connection](/assets/images/disconnect-tcp.svg) sending back and forth these packet to disconnected
+    * __Detecting lost packets__ --> using timeout, after send packet but didn't get ack bit then it will send the packet again ( may lead to duplicated data ) ![detect lost data](/assets/images/detect-lost-data-tcp.svg)
+    * __Handling out of order packets__ --> recipient can order the packets by the sequence number ![out of order](/assets/images/out-order-tcp.svg)
+* ***Web Protocol*** loads web page which on top by
+  * __Domain Name System "DNS" Protocol__ --> convert domain name ( Uniform Resource Locator "URL" ) to IP address
+  * __HyperText Transfer Protocol "HTTP"__ --> request webpages' contents from IP address
+  * __Transport Layer Security "TLS" Protocol__ --> secure the website by encrypted connection
+* ***Domain Name System "DNS"*** --> human-friendly IP address for websit
+  * __Anatomy__ --> [third-level-domain].[second-level-domain].[top-level-domain]
+    * __top level domains "TLDs"__ eg. ``.com``, ``.org``, ``.edu``
+    * __second level domain__ is unique company or organization eg. ``wikipedia``, ``khanacademy``
+    * __third level domain (subdomain)__ lead to subset of website eg. ``m.wikipedia.org`` (mobile-optimized Wikipedia), ``es.khanacademy.org`` (Spanish-language Khan Academy)
+  * __Converted URLs to IP address__
+    * 1. __check local cache__ --> map url with browser cache
+    * 2. __check ISP cache__ --> ISP ( Internet Service Provider ) provide domain name resolving service and keep it own cache
+    * 3. __ask name server__ </br> <img src="assets/images/ask-ip-dns1.svg" width=180> <img src="assets/images/ask-ip-dns2.svg" width=180> <img src="assets/images/ask-ip-dns3.svg" width=180> <img src="assets/images/ask-ip-dns4.svg" width=180>
+* ***Hypertext Transfer Protocol*** --> use to download page from another computer
+  * HTTP build on top of TCP/IP
+  * 1. __Direct browser to URL__
+  * 2. __Lookup for IP__ --> using DNS to get IP
+  * 3. __Browser send HTTP request__ </br> ``GET /index.html HTTP/1.1`` </br> ``Host: www.example.com``
+    * Get --> command
+    * /index.html --> content of the websit
+    * HTTP/1.1 --> version of protocol
+    * the second line --> domain url
+  * 4. __Host send back HTTP response__ </br> ``HTTP/1.1 200 OK``
+    * protocol + version
+    * status code
+* ***Scalable***
+* ***Suit Protocol*** </br> ![suit protocol](/assets/images/suit-protocol.svg)
+
+
+> [!NOTE]
+> Learned Vocabulary :book:
+> - anticipate => คาดหวัง
+> - redundancy => ความซ้ำซ้อน
+> - meaget => ขาดแคลน
+> - consequence => ผลที่ตามมา
+> - distinguish => แยกแยะ
+> - bureaucratic => ระบบราชการ
+> - threaten => คุกคาม
+> - onslaught => การโจมตี
+> - buckle => คาดคะเน
+> - vastly => อย่างมากมาย
+> - amidst => ท่ามกลาง
+> - frustrate => หงุดหงิด
+> - accommodate => รองรับ
+> - conduct => ดำเนินการ
+
+[11/04/2024]: #
+[12/04/2024]: #
 
 ---
