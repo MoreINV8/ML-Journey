@@ -7,6 +7,8 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 2, 3 ("Data Type 2")](#day-2-3-data-type-2)
     - [Day 3 ("Internet")](#day-3-internet)
     - [Day 4, 5 ("Internet 2")](#day-4-5-internet-2)
+    - [Day 6 ("Internet 3")](#day-6-internet-3)
+    - [Day 7 ("Programming")](#day-7-programming)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -237,3 +239,38 @@ working with machine learning, let's **start learning from beginers**.
 [12/04/2024]: #
 
 ---
+
+### Day 6 ("Internet 3")
+
+* ***open protocol development***
+* talk about computer divide
+
+> [!NOTE]
+> Learned Vocabulary :book:
+> - socioeconomic => เศรษฐกิจ + สังคม
+> - demographic => ข้อมูลประชากร
+> - infrastructure => โครงสร้างพื้นฐาน
+> - venture => กิจการ
+
+[13/04/2024]: #
+[I had skipped this class, bored]: #
+
+---
+
+### Day 7 ("Programming")
+
+* ***Logic Equivalent***
+  * NOT A AND NOT B ≡ NOT (A OR B)
+  * NOT (A AND B) ≡ NOT A OR NOT B
+
+* ***World***
+  * __statement__ --> A line of code ( instruction )
+
+> [!TIP]
+> - ~ --> Alt + Numpad(126)
+
+> [!NOTE]
+> Learned Vocabulary :book:
+> - drawback => ข้อเสียเปรียบ
+> - puddle => บ่อ
+> - yarn => เส้นด้าย
