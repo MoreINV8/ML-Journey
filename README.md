@@ -277,6 +277,8 @@ working with machine learning, let's **start learning from beginers**.
 > - puddle => บ่อ
 > - yarn => เส้นด้าย
 
+[14/04/2024]: #
+
 ---
 
 ## Week 2
@@ -312,3 +314,7 @@ working with machine learning, let's **start learning from beginers**.
 > - tendency => แนวโน้ม
 > - ambiguous => ไม่ชัดเจน
 > - vaguely => คลุมเคลือ
+
+[16/04/2024]: #
+
+---
