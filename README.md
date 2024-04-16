@@ -301,12 +301,17 @@ working with machine learning, let's **start learning from beginers**.
   * __Average case__
   * __Worse case__
 * ***Catagorizing run time***
-  * __Constance time__ --> O(1)  `#01A995`
-  * __Logarithmic time__ --> O(log<sub>2</sub>n) `#11ACCD`
-  * __Linear time__ --> O(n) `#7854AB`
-  * __Quadratic time__ --> O(n<sup>2</sup>) `#CA337C`
-  * __Exponential time__ --> O(a<sup>n</sup>) { "a" is an intiger } `#E84D39`
+  * __Constance time__ --> O(1)
+  * __Logarithmic time__ --> O(log<sub>2</sub>n)
+  * __Linear time__ --> O(n)
+  * __Quadratic time__ --> O(n<sup>2</sup>)
+  * __Exponential time__ --> O(a<sup>n</sup>) { "a" is an intiger }
+
 ![time complexity](/assets/images/time-complexity.svg)
+
+| Complexity |                       O(1)                       |               O(log<sub>2</sub>n)                |                       O(n)                       |                 O(n<sup>2</sup>)                 |                 O(a<sup>n</sup>)                 |
+| :--------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
+|   Color    | ![color](https://place-hold.it/32/01A995?text=+) | ![color](https://place-hold.it/32/11ACCD?text=+) | ![color](https://place-hold.it/32/7854AB?text=+) | ![color](https://place-hold.it/32/CA337C?text=+) | ![color](https://place-hold.it/32/E84D39?text=+) |
 
 > [!NOTE]
 > Learned Vocabulary :book:
