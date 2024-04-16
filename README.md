@@ -9,6 +9,8 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 4, 5 ("Internet 2")](#day-4-5-internet-2)
     - [Day 6 ("Internet 3")](#day-6-internet-3)
     - [Day 7 ("Programming")](#day-7-programming)
+  - [Week 2](#week-2)
+    - [Day 9 ("Algorithm")](#day-9-algorithm)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -274,3 +276,39 @@ working with machine learning, let's **start learning from beginers**.
 > - drawback => ข้อเสียเปรียบ
 > - puddle => บ่อ
 > - yarn => เส้นด้าย
+
+---
+
+## Week 2
+### Day 9 ("Algorithm")
+
+* ***Basic building block***
+  * __Sequencing__ --> process step-by-step, the order is crucial
+  * __Selection__ --> able to select some step to solve the problem, base on boolean
+  * __Iteration__ --> able to repeating execution steps.
+* ***Expression***
+  * __Netural Language__
+  * __Flow chart__
+  * __Pseudocode__
+  * __Programming Language__
+* ***Verifying algorithm*** ( "Correctness" )
+  * __Empirical analysis__ --> experiment the code to observe the result
+  * __Formal reasoning__ --> induction proof
+* ***Efficiency***
+  * __Best case__
+  * __Average case__
+  * __Worse case__
+* ***Catagorizing run time***
+  * __Constance time__ --> O(1)  `#01A995`
+  * __Logarithmic time__ --> O(log<sub>2</sub>n) `#11ACCD`
+  * __Linear time__ --> O(n) `#7854AB`
+  * __Quadratic time__ --> O(n<sup>2</sup>) `#CA337C`
+  * __Exponential time__ --> O(a<sup>n</sup>) { "a" is an intiger } `#E84D39`
+![time complexity](/assets/images/time-complexity.svg)
+
+> [!NOTE]
+> Learned Vocabulary :book:
+> - convey => ถ่ายทอด
+> - tendency => แนวโน้ม
+> - ambiguous => ไม่ชัดเจน
+> - vaguely => คลุมเคลือ
