@@ -11,6 +11,7 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 7 ("Programming")](#day-7-programming)
   - [Week 2](#week-2)
     - [Day 9 ("Algorithm")](#day-9-algorithm)
+    - [Day 10 ("Algorithm 2")](#day-10-algorithm-2)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -68,7 +69,7 @@ working with machine learning, let's **start learning from beginers**.
 
 | Original                                           |                      Sampling                      |                        Quantization                        |                            Binary                             | Reconstruction                                              |
 | :------------------------------------------------- | :------------------------------------------------: | :--------------------------------------------------------: | :-----------------------------------------------------------: | :---------------------------------------------------------- |
-| ![original wave](/assets/images/original-wave.png) | ![sampling wave](/assets/images/sampling-wave.png) | ![quantization wave](/assets/images/quantization-wave.png) | ![binary encoded wave](/assets/images/binary-encode-wave.png) | ![reconstruction wave](/assets/images/reconstruct-wave.png) |
+| ![original wave](/assets/images/khan-academy/original-wave.png) | ![sampling wave](/assets/images/khan-academy/sampling-wave.png) | ![quantization wave](/assets/images/khan-academy/quantization-wave.png) | ![binary encoded wave](/assets/images/khan-academy/binary-encode-wave.png) | ![reconstruction wave](/assets/images/khan-academy/reconstruct-wave.png) |
 
 * ***Compression Data***
   * __Lossless__ --> reduce size file with out losing any information ( work with ``text document, simple image, binary data`` )
@@ -117,7 +118,7 @@ working with machine learning, let's **start learning from beginers**.
   * __HTTP & DNS__ --> protocol for World Wide Web.
   * __Computer Network__ --> grop of computering devices that interconnected with other
   * __Computering Device__ --> any device that can run a program
-  * __Network Topology__ --> way computering device connected ![topology](/assets/images/network-topology.svg)
+  * __Network Topology__ --> way computering device connected ![topology](/assets/images/khan-academy/network-topology.svg)
   * __Router__ --> device moved paket along
   * __IP Header__ --> meta data of IP
 * ***Type of network***
@@ -125,11 +126,11 @@ working with machine learning, let's **start learning from beginers**.
   * __Wild Area Network "WAN"__ --> cover large area extended many, many LANs
   * __Data Center Network "DCN"__ --> used in data center where data must exchanged with very little delay
 * ***Physical connection***
-  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data ![copper cable](/assets/images/copper-cable.svg)
-  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) ![copper cable](/assets/images/fiber_optic-cable.svg)
-  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air ![copper cable](/assets/images/wireless.svg)
+  * __Copper cables__ --> transmit pulse of **electricity** that represent binary data ![copper cable](/assets/images/khan-academy/copper-cable.svg)
+  * __Fiber-optic cables__ --> sending pulse of **light** that represent binary data ( can transfer data more than copper) ![copper cable](/assets/images/khan-academy/fiber_optic-cable.svg)
+  * __Wireless__ --> converted binary data to **radio wave** and transmit through the air ![copper cable](/assets/images/khan-academy/wireless.svg)
 * ***Transferation***
-  * binary data transfer by ![copper cable](/assets/images/binary-transfer.svg)
+  * binary data transfer by ![copper cable](/assets/images/khan-academy/binary-transfer.svg)
   * __Bit rate__ --> number of bits data send for a second
   * __Bandwidth__ --> maximum bit rate of system
   * __Latency__ --> period of time sending data from computering device to other ( have milliseconds as unit ) also know as ping rate
@@ -175,7 +176,7 @@ working with machine learning, let's **start learning from beginers**.
   * solve only corrupt data.
   * sometimes known as the **Unreliable Data Protocol**
   * use in application required speed more accuracy
-  * __Packet format__ ![UDP packet format](/assets/images/UDP-format.svg)
+  * __Packet format__ ![UDP packet format](/assets/images/khan-academy/UDP-format.svg)
     * UDP segment header contain 8 bytes
     * __Port number__ --> use 4 bytes help distinguish difference type of network traffic
     * __Segment length__ --> use 2 bytes to tell length of segment ( including the header )
@@ -186,11 +187,11 @@ working with machine learning, let's **start learning from beginers**.
   * __Packet format__ ![TCP/IP format](/assets/images/TCP-format.svg)
     * TCP header contain 20 - 60 bytes
     * how to transmitting a packet using TCP
-      * 1. __Establish connection__ --> SYN = "synchronize", ACK = "acknowlege" ![establish connection](/assets/images/establish-tcp.svg) finsh all these ready to transmitting data! ( these transmitting dosen't include any data )
-      * 2. __Send packegs of Data__ ![sending data](/assets/images/send-tcp.svg) first device send data, the seconde device send back ack bit + length of data
-      * 3. __Close the connection__ --> FIN = "finish" ![clse connection](/assets/images/disconnect-tcp.svg) sending back and forth these packet to disconnected
-    * __Detecting lost packets__ --> using timeout, after send packet but didn't get ack bit then it will send the packet again ( may lead to duplicated data ) ![detect lost data](/assets/images/detect-lost-data-tcp.svg)
-    * __Handling out of order packets__ --> recipient can order the packets by the sequence number ![out of order](/assets/images/out-order-tcp.svg)
+      * 1. __Establish connection__ --> SYN = "synchronize", ACK = "acknowlege" ![establish connection](/assets/images/khan-academy/establish-tcp.svg) finsh all these ready to transmitting data! ( these transmitting dosen't include any data )
+      * 2. __Send packegs of Data__ ![sending data](/assets/images/khan-academy/send-tcp.svg) first device send data, the seconde device send back ack bit + length of data
+      * 3. __Close the connection__ --> FIN = "finish" ![clse connection](/assets/images/khan-academy/disconnect-tcp.svg) sending back and forth these packet to disconnected
+    * __Detecting lost packets__ --> using timeout, after send packet but didn't get ack bit then it will send the packet again ( may lead to duplicated data ) ![detect lost data](/assets/images/khan-academy/detect-lost-data-tcp.svg)
+    * __Handling out of order packets__ --> recipient can order the packets by the sequence number ![out of order](/assets/images/khan-academy/out-order-tcp.svg)
 * ***Web Protocol*** loads web page which on top by
   * __Domain Name System "DNS" Protocol__ --> convert domain name ( Uniform Resource Locator "URL" ) to IP address
   * __HyperText Transfer Protocol "HTTP"__ --> request webpages' contents from IP address
@@ -217,7 +218,7 @@ working with machine learning, let's **start learning from beginers**.
     * protocol + version
     * status code
 * ***Scalable***
-* ***Suit Protocol*** </br> ![suit protocol](/assets/images/suit-protocol.svg)
+* ***Suit Protocol*** </br> ![suit protocol](/assets/images/khan-academy/suit-protocol.svg)
 
 
 > [!NOTE]
@@ -307,7 +308,7 @@ working with machine learning, let's **start learning from beginers**.
   * __Quadratic time__ --> O(n<sup>2</sup>)
   * __Exponential time__ --> O(a<sup>n</sup>) { "a" is an intiger }
 
-![time complexity](/assets/images/time-complexity.svg)
+![time complexity](/assets/images/khan-academy/time-complexity.svg)
 
 | Complexity |                       O(1)                       |               O(log<sub>2</sub>n)                |                       O(n)                       |                 O(n<sup>2</sup>)                 |                 O(a<sup>n</sup>)                 |
 | :--------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: | :----------------------------------------------: |
@@ -321,5 +322,23 @@ working with machine learning, let's **start learning from beginers**.
 > - vaguely => คลุมเคลือ
 
 [16/04/2024]: #
+
+---
+
+### Day 10 ("Algorithm 2")
+
+* ***Heuristic*** --> technique to guide computer to find good choices for problem that use superpolynomial run time
+* ***Type of computing***
+  * __Sequential computing__
+  * __Parallel computing__
+    * __Variable cmputing time__ --> each executed process in parallel computing may not have exact same run time for every process
+* ***Distributed computing*** --> using several computing device to finish task __eg.__ computer working with HTTP request, get website data, deal with JS, etc.And the server also work to responding the requests
+
+> [!NOTE]
+> Learned Vocabulary :book:
+
+[17/04/2024]: #
+
+![report](/assets/images/khan-academy/khan-academy-report.png)
 
 ---
