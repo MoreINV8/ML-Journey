@@ -339,6 +339,6 @@ working with machine learning, let's **start learning from beginers**.
 
 [17/04/2024]: #
 
-![report](/assets/images/khan-academy/khan-academy-report.png)
+[![report](/assets/images/khan-academy/khan-academy-report.png)](https://www.khanacademy.org/computing/ap-computer-science-principles)
 
 ---
