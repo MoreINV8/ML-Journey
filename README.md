@@ -75,11 +75,11 @@ working with machine learning, let's **start learning from beginers**.
   * __Lossless__ --> reduce size file with out losing any information ( work with ``text document, simple image, binary data`` )
     * _Text document_ **eg.** "to be or not to be, that is the question" -->> "⊜ ⬗ or not ⊜ ⬗, ⟡at is ⟡e question" which replace ``"to" -->> ⊜``, ``"be" -->> ⬗``, ``"th" -->> ⟡``
     * _Simple image_ using **run-length encoding (RLE)** to reduce same pattern of color pixel **eg.** ``--====---====---`` - binary -> ``0011110001111000`` - RLE -> ``2, 4, 3, 4, 3``
-      * > [!TIP] RLE can't be use in image which have different colors
+      * > RLE can't be use in image which have different colors
     * _Binary data_ using **Huffman coding**
   * __Lossy__ --> reduce size file by discard less important information ( work with ``photos, audio, videos`` )
     * _Images_ kept only data of brightness and color wich reduce value of color
-      * <div><img src="assets/images/lossy-brightness.png" height=100 alt="brightness"\><img src="assets/images/lossy-chroma.png" height=100 alt="chroma"\><img src="assets/images/lossy-result.jpg" height=100 alt="result"\></div>
+      * <div><img src="assets/images/khan-academy/lossy-brightness.png" height=100 alt="brightness"\><img src="assets/images/khan-academy/lossy-chroma.png" height=100 alt="chroma"\><img src="assets/images/khan-academy/lossy-result.jpg" height=100 alt="result"\></div>
     *  _Audio_ analyze and discard data wich human can't hear that data
 *  ***Ethic***
    * Copyright
@@ -184,7 +184,7 @@ working with machine learning, let's **start learning from beginers**.
 * ***Transmission Control Protocol "TCP"*** --> transport protocol ensure reliable transmission of packet, worked on top IP
   * solve all the problem
   * use mostly on top IP know as **TCP/IP**
-  * __Packet format__ ![TCP/IP format](/assets/images/TCP-format.svg)
+  * __Packet format__ ![TCP/IP format](/assets/images/khan-academy/TCP-format.svg)
     * TCP header contain 20 - 60 bytes
     * how to transmitting a packet using TCP
       * 1. __Establish connection__ --> SYN = "synchronize", ACK = "acknowlege" ![establish connection](/assets/images/khan-academy/establish-tcp.svg) finsh all these ready to transmitting data! ( these transmitting dosen't include any data )
@@ -204,7 +204,7 @@ working with machine learning, let's **start learning from beginers**.
   * __Converted URLs to IP address__
     * 1. __check local cache__ --> map url with browser cache
     * 2. __check ISP cache__ --> ISP ( Internet Service Provider ) provide domain name resolving service and keep it own cache
-    * 3. __ask name server__ </br> <img src="assets/images/ask-ip-dns1.svg" width=180> <img src="assets/images/ask-ip-dns2.svg" width=180> <img src="assets/images/ask-ip-dns3.svg" width=180> <img src="assets/images/ask-ip-dns4.svg" width=180>
+    * 3. __ask name server__ </br> <img src="assets/images/khan-academy/ask-ip-dns1.svg" width=180> <img src="assets/images/khan-academy/ask-ip-dns2.svg" width=180> <img src="assets/images/khan-academy/ask-ip-dns3.svg" width=180> <img src="assets/images/khan-academy/ask-ip-dns4.svg" width=180>
 * ***Hypertext Transfer Protocol*** --> use to download page from another computer
   * HTTP build on top of TCP/IP
   * 1. __Direct browser to URL__
