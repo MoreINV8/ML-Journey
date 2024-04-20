@@ -12,6 +12,7 @@ working with machine learning, let's **start learning from beginers**.
   - [Week 2](#week-2)
     - [Day 9 ("Algorithm")](#day-9-algorithm)
     - [Day 10 ("Algorithm 2")](#day-10-algorithm-2)
+    - [Day 12, 13 ("Basic Python")](#day-12-13-basic-python)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -67,8 +68,8 @@ working with machine learning, let's **start learning from beginers**.
     * bit depth --> how many bit use encrypt each sample
   * __Reconstruction__ --> convert digital data back to wave
 
-| Original                                           |                      Sampling                      |                        Quantization                        |                            Binary                             | Reconstruction                                              |
-| :------------------------------------------------- | :------------------------------------------------: | :--------------------------------------------------------: | :-----------------------------------------------------------: | :---------------------------------------------------------- |
+| Original                                                        |                            Sampling                             |                              Quantization                               |                                   Binary                                   | Reconstruction                                                           |
+| :-------------------------------------------------------------- | :-------------------------------------------------------------: | :---------------------------------------------------------------------: | :------------------------------------------------------------------------: | :----------------------------------------------------------------------- |
 | ![original wave](/assets/images/khan-academy/original-wave.png) | ![sampling wave](/assets/images/khan-academy/sampling-wave.png) | ![quantization wave](/assets/images/khan-academy/quantization-wave.png) | ![binary encoded wave](/assets/images/khan-academy/binary-encode-wave.png) | ![reconstruction wave](/assets/images/khan-academy/reconstruct-wave.png) |
 
 * ***Compression Data***
@@ -342,3 +343,48 @@ working with machine learning, let's **start learning from beginers**.
 [![report](/assets/images/khan-academy/khan-academy-report.png)](https://www.khanacademy.org/computing/ap-computer-science-principles)
 
 ---
+
+### Day 12, 13 ("Basic Python")
+
+* ***Variable***
+  * can't using python key words eg. in, for, break, continue, ...
+  * can't start variable name by numbers
+  * can't have math symbol in variable name eg. +, -, *, /, ^, ...
+* ***Math operator***
+
+| addition | subtraction | multiplication | division | modulus | exponentiation | floor division |
+| :------: | :---------: | :------------: | :------: | :-----: | :------------: | :------------: |
+|  __+__   |    __-__    |     __*__      |  __/__   |  __%__  |     __**__     |     __//__     |
+
+* ***String***
+* ***List***
+* ***Condition "If"***
+
+|                 __and__                  |                    __or__                     |      __not__      |
+| :--------------------------------------: | :-------------------------------------------: | :---------------: |
+| Returns True if both statements are true | Returns True if one of the statements is true | Reverse the value |
+|               T and T => T               |                  F or F => F                  |    not T => F     |
+|               T and F => F               |                  T or F => T                  |    not F => T     |
+
+* ***Iteration "for and while"***
+* ***Function***
+  * __Named argument__ --> function( name = "Hello" )
+  * __Positional argument__ --> funciton( "Hello" )
+  * __Default argument__ --> def function( str = "" ) :
+* ***Dictionary***
+* ***Tuple***
+  * how difference between list and tuple? ==> __list stored the same meaning__ of value but __tuple stored difference meaning__ of value
+* ***pip installation***
+  * use ``pip install modules_name`` to install module into your computer
+  * use ``pip uninstall modules_name`` to uninstall module from your computer
+* ***Owned modules***
+  * __same directory__
+    * ``import module_name``
+  * __same sub directory__
+    * ``import path.module_name``
+  * __some where elsse__
+    * ``import sys``</br>``sys.path.append(absolute\path\to\module\directory)``</br>``import module_name``
+* ***Open Read/Write file***
+
+[19/04/2024]: #
+[20/04/2024]: #
