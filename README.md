@@ -13,6 +13,8 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 9 ("Algorithm")](#day-9-algorithm)
     - [Day 10 ("Algorithm 2")](#day-10-algorithm-2)
     - [Day 12, 13 ("Basic Python")](#day-12-13-basic-python)
+  - [Week 3](#week-3)
+    - [Day 16, 19 ("Basic Python2")](#day-16-19-basic-python2)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -346,19 +348,19 @@ working with machine learning, let's **start learning from beginers**.
 
 ### Day 12, 13 ("Basic Python")
 
-* ***Variable***
+* [***Variable***](/src/exercises/2-variable.py)
   * can't using python key words eg. in, for, break, continue, ...
   * can't start variable name by numbers
   * can't have math symbol in variable name eg. +, -, *, /, ^, ...
-* ***Math operator***
+* [***Math operator***](/src/exercises/3-number.py)
 
 | addition | subtraction | multiplication | division | modulus | exponentiation | floor division |
 | :------: | :---------: | :------------: | :------: | :-----: | :------------: | :------------: |
 |  __+__   |    __-__    |     __*__      |  __/__   |  __%__  |     __**__     |     __//__     |
 
-* ***String***
-* ***List***
-* ***Condition "If"***
+* [***String***](/src/exercises/4-string.py)
+* [***List***](/src/exercises/5-list.py)
+* [***Condition "If"***](/src/exercises/8-if.py)
 
 |                 __and__                  |                    __or__                     |      __not__      |
 | :--------------------------------------: | :-------------------------------------------: | :---------------: |
@@ -366,13 +368,13 @@ working with machine learning, let's **start learning from beginers**.
 |               T and T => T               |                  F or F => F                  |    not T => F     |
 |               T and F => F               |                  T or F => T                  |    not F => T     |
 
-* ***Iteration "for and while"***
-* ***Function***
+* [***Iteration "for and while"***](/src/exercises/9-for.py)
+* [***Function***](/src/exercises/10-function.py)
   * __Named argument__ --> function( name = "Hello" )
   * __Positional argument__ --> funciton( "Hello" )
   * __Default argument__ --> def function( str = "" ) :
-* ***Dictionary***
-* ***Tuple***
+* [***Dictionary***](/src/exercises/11-dict-tuple.py)
+* [***Tuple***](/src/exercises/11-dict-tuple.py)
   * how difference between list and tuple? ==> __list stored the same meaning__ of value but __tuple stored difference meaning__ of value
 * ***pip installation***
   * use ``pip install modules_name`` to install module into your computer
@@ -384,7 +386,52 @@ working with machine learning, let's **start learning from beginers**.
     * ``import path.module_name``
   * __some where elsse__
     * ``import sys``</br>``sys.path.append(absolute\path\to\module\directory)``</br>``import module_name``
-* ***Open Read/Write file***
+* [***Open Read/Write file***](/src/exercises/13-file.py)
+
+| File Mode |                      Description                      |
+| :-------: | :---------------------------------------------------: |
+|  __"r"__  |                       read only                       |
+|  __"w"__  |       write only + create if file doesn't exit        |
+| __"r+"__  |                     read + write                      |
+| __"w+"__  |      read + write + create if file doesn't exit       |
+|  __"a"__  | continue write the the file (not replace the content) |
 
 [19/04/2024]: #
 [20/04/2024]: #
+
+---
+
+## Week 3
+
+### Day 16, 19 ("Basic Python2")
+
+* ***\_\_name\_\_***
+  * be ``__main__`` while run directly in that file --> [eg.](/src/hello.py)
+  * bef ``module_name`` while using by another file ( import ) --> [eg.](/src/area.py)
+* [***Exception***](/src/exercises/19-exception.py)
+  * how to detect type of exeption?
+    * ``try :``</br>&emsp;``code hear ....``</br>``except Exception_Name as e:`` ( __Exeption__ for all type of exception )</br>&emsp;``print(type(e).__name__)``
+* [***Class***](/src/exercises/16-class.py)
+* ***Inheritance***
+  * ``SupClass(SuperClass)`` --> [eg.](/src/exercises/17-inheritance.py)
+  * ``SupClass(SuperClass1, SuperClass2, ...)`` --> [eg.](/src/exercises/18-multi-inherit.py)
+* [***Iterator***](/src/exercises/20-iterator.py)
+* [***Generator***](/src/exercises/21-generator.py)
+* [***Comprehension***](/src/exercises/22-comprehension.py)
+* [***Set***](/src/exercises/23-set.py)
+
+| Python Operator | Math Operator |
+| :-------------: | :-----------: |
+|     __\|__      |     Union     |
+|      __&__      | Intersection  |
+|      __-__      |  Difference   |
+
+* [***Argparse***](/src/exercises/24-argparse.py) --> passing argument to the program
+* [***Decoratot***](/src/exercises/25-decorator.py) --> adjust the fuction without writing directly to the function
+* [***Mulithreading***](/src/exercises/26-multithread.py)
+
+> [!TIP]
+> use ``&emsp;`` for a 4 tab spaces.
+
+[23/04/2024]: #
+[26/04/2024]: #

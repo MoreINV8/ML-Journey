@@ -1,7 +1,11 @@
-import pandas as pd
-import numpy as np
+import area
 
-df = pd.DataFrame({'A':[1,2,3,4,5],'B':[5,4,3,2,1]})
+# while running in file.py the "__name__" will be "__main__"
+# if doesn't file directly run the "__name__" will be "module name"
 
-np.average(df.A)
-np.mean(df.B)
+print(f"IN Hello.py = {area.findArea(5, 6)}")
+
+try :
+    print(1/0)
+except Exception as e :
+    print(type(e).__name__)

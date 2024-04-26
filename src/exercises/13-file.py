@@ -2,8 +2,10 @@ absolutePath = "C:\\Users\\Lenovo\\Documents\\s0me_thing\\ML-en_Journey\\data"
 
 # 1.
 
+# while opened file then file needed to be close
 f = open(absolutePath + "\\poem.txt", "r")
 
+# reading the hole file
 poem = f.read()
 
 f.close()
@@ -33,8 +35,10 @@ print("1.", maxWord, count)
 # ------------------------------------
 # 2.
 
+# using with statement will automatic close file
 with open(absolutePath + "\\stocks.csv", "r") as stocks_csv :
     stocks = []
+    # using for loop will get each line of file
     for line in stocks_csv :
         stocks.append(line.rstrip().split(","))
         
