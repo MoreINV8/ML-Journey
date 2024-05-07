@@ -15,6 +15,8 @@ working with machine learning, let's **start learning from beginers**.
     - [Day 12, 13 ("Basic Python")](#day-12-13-basic-python)
   - [Week 3](#week-3)
     - [Day 16, 19 ("Basic Python2")](#day-16-19-basic-python2)
+  - [Week 5](#week-5)
+    - [Day 30 ("Data Struct + Algorithm")](#day-30-data-struct--algorithm)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -435,3 +437,13 @@ working with machine learning, let's **start learning from beginers**.
 
 [23/04/2024]: #
 [26/04/2024]: #
+
+## Week 5
+### Day 30 ("Data Struct + Algorithm")
+
+* ***Complecity*** --> measurment of __run time usage__ or __used space growth__
+* ***Array***
+* ***Linked List***
+  * ***Double Linked List***
+
+[07/05/2024]: #
