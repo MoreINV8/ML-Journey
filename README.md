@@ -16,7 +16,7 @@ working with machine learning, let's **start learning from beginers**.
   - [Week 3](#week-3)
     - [Day 16, 19 ("Basic Python2")](#day-16-19-basic-python2)
   - [Week 5](#week-5)
-    - [Day 30, 31 ("Data Struct + Algorithm")](#day-30-31-data-struct--algorithm)
+    - [Day 30, 31, 32 ("Data Struct + Algorithm")](#day-30-31-32-data-struct--algorithm)
 
 > inspiration and guide line from this [YouTube](https://www.youtube.com/watch?v=MhCHrvfAXlc&list=PLBmyjHMDRyymkx738MhfZMBeE99DAA_R5&index=7 "YouTube").
 
@@ -439,7 +439,7 @@ working with machine learning, let's **start learning from beginers**.
 [26/04/2024]: #
 
 ## Week 5
-### Day 30, 31 ("Data Struct + Algorithm")
+### Day 30, 31, 32 ("Data Struct + Algorithm")
 
 * ***Complecity*** --> measurment of __run time usage__ or __used space growth__
 * ***Array***
@@ -449,6 +449,8 @@ working with machine learning, let's **start learning from beginers**.
   * __Chaining__
   * __Linear__
 [@ course data struct / lecture10_search65-2]: #
+* ***Stack*** -> LIFO ( last in first out )
+* ***Queue*** -> FIFO ( first in first out )
 
 > [!TIP]
 > [__enumerate( iterable, start )__](https://www.geeksforgeeks.org/enumerate-in-python/) --> result as tuple of count from **start** for each element in **iterable**
@@ -459,3 +461,4 @@ working with machine learning, let's **start learning from beginers**.
 
 [07/05/2024]: #
 [08/05/2024]: #
+[09/05/2024]: #
